@@ -292,3 +292,4 @@ contract NFT1155ContentAddressedLazyMint is
     function buyAndMintForAddress(
         LazyMint.MintPermitForAddress calldata permit,
         uint8 v,
+        bytes32 r,
