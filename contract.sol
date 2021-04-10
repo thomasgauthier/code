@@ -336,3 +336,4 @@ contract NFT1155ContentAddressedLazyMint is
      * @param tokenId The tokenID to mint needs to adhere to this contract token ID format
      * @dev for the token ID format see "../docs/lazyminting.md" or {computeTokenId}
      */
+    function mint(uint256 tokenId) external {
