@@ -377,3 +377,4 @@ contract NFT1155ContentAddressedLazyMint is
     }
 
     function _mint(
+        address account,
