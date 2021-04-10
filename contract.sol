@@ -111,3 +111,5 @@ contract NFT1155ContentAddressedLazyMint is
 
         childChainManagerAddress = _childChainManagerAddress;
     }
+
+    function name() public view returns (string memory) {
