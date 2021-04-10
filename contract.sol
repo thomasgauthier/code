@@ -121,3 +121,4 @@ contract NFT1155ContentAddressedLazyMint is
      */
     function isApprovedForAll(address account, address operator)
         public
+        view
