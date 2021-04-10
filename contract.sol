@@ -49,3 +49,5 @@ contract NFT1155ContentAddressedLazyMint is
         uint256 chainId;
         address verifyingContract;
     }
+
+    LazyMint.LazyMintStorage private _lazyMint;
