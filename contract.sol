@@ -352,3 +352,4 @@ contract NFT1155ContentAddressedLazyMint is
     function uri(uint256 tokenId)
         external
         view
+        override
