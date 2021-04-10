@@ -340,3 +340,4 @@ contract NFT1155ContentAddressedLazyMint is
         require(
             LazyMint.tokenIdMatchesCreator(tokenId, msg.sender),
             "lazy-mint/sender-not-in-token-id"
+        );
