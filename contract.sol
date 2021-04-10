@@ -84,3 +84,4 @@ contract NFT1155ContentAddressedLazyMint is
          address _childChainManagerAddress
     ) public initializer {
         OwnableUpgradeable.__Ownable_init();
+        ERC1155Upgradeable.__ERC1155_init("");
