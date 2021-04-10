@@ -202,3 +202,4 @@ contract NFT1155ContentAddressedLazyMint is
     {
         return
             keccak256(
+                abi.encode(
