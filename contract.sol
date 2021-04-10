@@ -413,3 +413,4 @@ contract NFT1155ContentAddressedLazyMint is
     {
         _ipfsGatewayURIPrefix = newIPFSGatewayURIPrefix;
     }
+}
