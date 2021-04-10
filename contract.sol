@@ -28,3 +28,5 @@ import {
 } from "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol";
 
 import {LazyMint} from "./LazyMint.sol";
+
+// This is the main building block for smart contracts.
