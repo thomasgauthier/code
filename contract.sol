@@ -286,3 +286,4 @@ contract NFT1155ContentAddressedLazyMint is
      * @notice Call this function to buy a not yet minted NFT with a permit addressed to yourself
      * @param permit The MintPermitForAddress signed by the NFT creator
      * @param v The v portion of the secp256k1 permit signature
+     * @param r The r portion of the secp256k1 permit signature
