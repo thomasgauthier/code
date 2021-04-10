@@ -219,3 +219,4 @@ contract NFT1155ContentAddressedLazyMint is
      * @param tokenId the token ID for which to revoke permits
      * @param accountTransactionCount IMPORTANT:  the current account transaction count should be passed
      */
+    function revokeMintPermitsUnderNonce(
