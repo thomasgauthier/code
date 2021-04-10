@@ -356,3 +356,4 @@ contract NFT1155ContentAddressedLazyMint is
         returns (string memory)
     {
         /*
+         extract the JSON metadata sha1 digest from `tokenId` and convert to hex string
