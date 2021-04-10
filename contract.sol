@@ -51,3 +51,5 @@ contract NFT1155ContentAddressedLazyMint is
     }
 
     LazyMint.LazyMintStorage private _lazyMint;
+
+    //keccak256("EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)");
