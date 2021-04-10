@@ -244,3 +244,4 @@ contract NFT1155ContentAddressedLazyMint is
     }
 
     /**
+     * @notice Call this function to buy a not yet minted NFT
