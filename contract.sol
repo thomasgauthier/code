@@ -57,3 +57,5 @@ contract NFT1155ContentAddressedLazyMint is
         0x8b73c3c69bb8fe3d512ecc4cf759cc79239f7b179b0ffacaa9a75d522b39400f;
 
     /*======================================*/
+
+    // Mapping from token ID to minted state
