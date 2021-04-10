@@ -185,3 +185,4 @@ contract NFT1155ContentAddressedLazyMint is
         external
     {
         _burnBatch(_msgSender(), ids, amounts);
+    }
