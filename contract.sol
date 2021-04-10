@@ -368,3 +368,4 @@ contract NFT1155ContentAddressedLazyMint is
         }
 
         //with IPFS we can retrieve a SHA1 hashed file with a CID of the following format : "f01551114{_sha1}"
+        //only works if the file has been uploaded with "ipfs add --raw-leaves --hash=sha1 <path>"
