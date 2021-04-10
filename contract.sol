@@ -379,3 +379,4 @@ contract NFT1155ContentAddressedLazyMint is
     function _mint(
         address account,
         uint256 tokenId,
+        uint256 amount,
