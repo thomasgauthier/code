@@ -302,3 +302,4 @@ contract NFT1155ContentAddressedLazyMint is
         require(!_isMinted[permit.tokenId], "lazy-mint/already-minted");
 
         require(
+            msg.value >= permit.minimumPrice,
