@@ -39,3 +39,4 @@ contract NFT1155ContentAddressedLazyMint is
     using LazyMint for LazyMint.LazyMintStorage;
 
     using SafeMathUpgradeable for uint256;
+    using AddressUpgradeable for address;
