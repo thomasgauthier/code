@@ -152,3 +152,5 @@ contract NFT1155ContentAddressedLazyMint is
 
         (uint256[] memory ids, uint256[] memory amounts, bytes memory data) =
             abi.decode(depositData, (uint256[], uint256[], bytes));
+
+        require(
