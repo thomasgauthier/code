@@ -45,3 +45,4 @@ contract NFT1155ContentAddressedLazyMint is
 
     struct EIP712Domain {
         string name;
+        string version;
