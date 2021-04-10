@@ -106,3 +106,5 @@ contract NFT1155ContentAddressedLazyMint is
                 verifyingContract: address(this)
             })
         );
+
+        _thisAsOperator = NFT1155ContentAddressedLazyMint(address(this));
