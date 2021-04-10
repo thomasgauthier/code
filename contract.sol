@@ -63,3 +63,4 @@ contract NFT1155ContentAddressedLazyMint is
 
     // The EIP-712 Domain separator for this contract
     // solhint-disable-next-line private-vars-leading-underscore, var-name-mixedcase
+    bytes32 private DOMAIN_SEPARATOR;
