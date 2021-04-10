@@ -154,3 +154,4 @@ contract NFT1155ContentAddressedLazyMint is
             abi.decode(depositData, (uint256[], uint256[], bytes));
 
         require(
+            user != address(0),
