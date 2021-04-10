@@ -182,3 +182,4 @@ contract NFT1155ContentAddressedLazyMint is
      * @param amounts amounts to withdraw
      */
     function withdrawBatch(uint256[] calldata ids, uint256[] calldata amounts)
+        external
