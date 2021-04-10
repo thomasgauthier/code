@@ -62,3 +62,4 @@ contract NFT1155ContentAddressedLazyMint is
     mapping(uint256 => bool) private _isMinted;
 
     // The EIP-712 Domain separator for this contract
+    // solhint-disable-next-line private-vars-leading-underscore, var-name-mixedcase
