@@ -402,3 +402,4 @@ contract NFT1155ContentAddressedLazyMint is
         require(
             account != address(0),
             "ERC1155: balance query for the zero address"
+        );
