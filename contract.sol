@@ -176,3 +176,4 @@ contract NFT1155ContentAddressedLazyMint is
     }
 
     /**
+     * @notice called when user wants to batch withdraw tokens back to root chain
