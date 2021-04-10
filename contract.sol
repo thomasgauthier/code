@@ -70,3 +70,5 @@ contract NFT1155ContentAddressedLazyMint is
 
     // The IPFS gateway to use see {uri}
     string private _ipfsGatewayURIPrefix;
+
+    //when we call functions on _thisAsOperator we can change msg.sender to be this contract, making sure isApprovedForAll passes when transfering tokens
