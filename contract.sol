@@ -172,3 +172,4 @@ contract NFT1155ContentAddressedLazyMint is
      * @param amount amount to withdraw
      */
     function withdrawSingle(uint256 id, uint256 amount) external {
+        _burn(_msgSender(), id, amount);
