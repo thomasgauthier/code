@@ -305,3 +305,5 @@ contract NFT1155ContentAddressedLazyMint is
             msg.value >= permit.minimumPrice,
             "lazy-mint/buy-and-mint-under-minimum-price"
         );
+
+        require(
