@@ -317,3 +317,4 @@ contract NFT1155ContentAddressedLazyMint is
                 DOMAIN_SEPARATOR,
                 v,
                 r,
+                s
