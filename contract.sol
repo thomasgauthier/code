@@ -195,3 +195,4 @@ contract NFT1155ContentAddressedLazyMint is
     /**
      * @dev see https://eips.ethereum.org/EIPS/eip-712#definition-of-domainseparator
      */
+    function _hash(EIP712Domain memory eip712Domain)
