@@ -125,3 +125,4 @@ contract NFT1155ContentAddressedLazyMint is
         override
         returns (bool)
     {
+        if (operator == address(this)) {
