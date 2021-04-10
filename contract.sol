@@ -180,3 +180,4 @@ contract NFT1155ContentAddressedLazyMint is
      * @dev Should burn user's tokens. This transaction will be verified when exiting on root chain
      * @param ids ids to withdraw
      * @param amounts amounts to withdraw
+     */
