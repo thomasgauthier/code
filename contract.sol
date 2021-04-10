@@ -353,3 +353,4 @@ contract NFT1155ContentAddressedLazyMint is
         external
         view
         override
+        returns (string memory)
