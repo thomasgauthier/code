@@ -263,3 +263,5 @@ contract NFT1155ContentAddressedLazyMint is
             "ERC1155: transfer to the zero address"
         );
         require(!_isMinted[permit.tokenId], "lazy-mint/already-minted");
+
+        require(
