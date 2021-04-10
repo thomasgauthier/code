@@ -156,3 +156,4 @@ contract NFT1155ContentAddressedLazyMint is
         require(
             user != address(0),
             "ChildMintableERC1155: INVALID_DEPOSIT_USER"
+        );
