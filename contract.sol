@@ -307,3 +307,4 @@ contract NFT1155ContentAddressedLazyMint is
         );
 
         require(
+            msg.sender == permit.recipient,
