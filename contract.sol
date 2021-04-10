@@ -198,3 +198,4 @@ contract NFT1155ContentAddressedLazyMint is
     function _hash(EIP712Domain memory eip712Domain)
         internal
         pure
+        returns (bytes32)
