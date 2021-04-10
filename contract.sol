@@ -332,3 +332,4 @@ contract NFT1155ContentAddressedLazyMint is
     }
 
     /**
+     * @notice A creator can call this function to mint an NFT for themselves (no lazy mint)
