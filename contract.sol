@@ -124,3 +124,4 @@ contract NFT1155ContentAddressedLazyMint is
         view
         override
         returns (bool)
+    {
