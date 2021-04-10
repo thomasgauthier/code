@@ -88,3 +88,5 @@ contract NFT1155ContentAddressedLazyMint is
         AccessControlUpgradeable.__AccessControl_init();
 
         _ipfsGatewayURIPrefix = ipfsGatewayURIPrefix;
+
+        uint256 chainId;
