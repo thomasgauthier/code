@@ -231,3 +231,4 @@ contract NFT1155ContentAddressedLazyMint is
      * @param permit the MintPermitForAddress to revoke
      */
     function revokeMintPermitForAddress(
+        LazyMint.MintPermitForAddress calldata permit
