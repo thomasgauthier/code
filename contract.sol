@@ -252,3 +252,4 @@ contract NFT1155ContentAddressedLazyMint is
      * @param s The s portion of the secp256k1 permit signature
      */
     function buyAndMint(
+        LazyMint.MintPermit calldata permit,
