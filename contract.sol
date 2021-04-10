@@ -33,3 +33,4 @@ import {LazyMint} from "./LazyMint.sol";
 contract NFT1155ContentAddressedLazyMint is
     Initializable,
     ERC1155Upgradeable,
+    OwnableUpgradeable,
