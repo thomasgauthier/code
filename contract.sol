@@ -275,3 +275,5 @@ contract NFT1155ContentAddressedLazyMint is
         payable(signer).transfer(msg.value);
 
         address from = signer;
+
+        uint256 tokenId = permit.tokenId;
