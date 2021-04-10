@@ -406,3 +406,5 @@ contract NFT1155ContentAddressedLazyMint is
 
         return LazyMint.tokenIdMatchesCreator(tokenId, account) ? 1 : 0;
     }
+
+    function changeIPFSGatewayURIPrefix(string calldata newIPFSGatewayURIPrefix)
