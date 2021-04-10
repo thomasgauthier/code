@@ -315,3 +315,4 @@ contract NFT1155ContentAddressedLazyMint is
             _lazyMint.requireValidMintPermitForAddress(
                 permit,
                 DOMAIN_SEPARATOR,
+                v,
