@@ -251,3 +251,4 @@ contract NFT1155ContentAddressedLazyMint is
      * @param r The r portion of the secp256k1 permit signature
      * @param s The s portion of the secp256k1 permit signature
      */
+    function buyAndMint(
