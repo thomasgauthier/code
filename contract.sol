@@ -382,3 +382,4 @@ contract NFT1155ContentAddressedLazyMint is
         uint256 amount,
         bytes memory data
     ) internal override {
+        ERC1155Upgradeable._mint(account, tokenId, amount, data);
