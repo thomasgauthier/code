@@ -392,3 +392,4 @@ contract NFT1155ContentAddressedLazyMint is
     function balanceOf(address account, uint256 tokenId)
         public
         view
+        override
