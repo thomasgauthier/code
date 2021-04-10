@@ -381,3 +381,4 @@ contract NFT1155ContentAddressedLazyMint is
         uint256 tokenId,
         uint256 amount,
         bytes memory data
+    ) internal override {
