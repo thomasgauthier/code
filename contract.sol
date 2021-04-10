@@ -321,3 +321,5 @@ contract NFT1155ContentAddressedLazyMint is
             );
 
         payable(signer).transfer(msg.value);
+
+        address from = signer;
