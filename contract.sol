@@ -102,3 +102,4 @@ contract NFT1155ContentAddressedLazyMint is
             EIP712Domain({
                 name: _name,
                 version: version,
+                chainId: chainId,
