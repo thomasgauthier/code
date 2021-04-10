@@ -349,3 +349,4 @@ contract NFT1155ContentAddressedLazyMint is
     /**
      * @dev See {IERC1155MetadataURI-uri}.
      */
+    function uri(uint256 tokenId)
