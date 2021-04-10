@@ -309,3 +309,4 @@ contract NFT1155ContentAddressedLazyMint is
         require(
             msg.sender == permit.recipient,
             "lazy-mint/invalid-recipient-for-mint-permit"
+        );
