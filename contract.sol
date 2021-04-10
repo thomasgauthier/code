@@ -257,3 +257,4 @@ contract NFT1155ContentAddressedLazyMint is
         uint8 v,
         bytes32 r,
         bytes32 s
+    ) external payable {
