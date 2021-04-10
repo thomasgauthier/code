@@ -35,3 +35,4 @@ contract NFT1155ContentAddressedLazyMint is
     ERC1155Upgradeable,
     OwnableUpgradeable,
     AccessControlUpgradeable
+{
