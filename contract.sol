@@ -20,3 +20,4 @@ import {
 } from "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 
 import {
+    ERC1155Upgradeable
