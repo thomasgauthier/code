@@ -234,3 +234,4 @@ contract NFT1155ContentAddressedLazyMint is
         LazyMint.MintPermitForAddress calldata permit
     ) public {
         _lazyMint.revokeMintPermitForAddress(permit, DOMAIN_SEPARATOR);
+    }
