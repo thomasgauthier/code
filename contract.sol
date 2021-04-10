@@ -193,3 +193,4 @@ contract NFT1155ContentAddressedLazyMint is
     /*============================ EIP-712 encoding functions ================================*/
 
     /**
+     * @dev see https://eips.ethereum.org/EIPS/eip-712#definition-of-domainseparator
