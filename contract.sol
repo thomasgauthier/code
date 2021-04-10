@@ -216,3 +216,4 @@ contract NFT1155ContentAddressedLazyMint is
 
     /**
      * @notice revoke all MintPermits issued for token ID `tokenId` with nonce lower than `accountTransactionCount`
+     * @param tokenId the token ID for which to revoke permits
