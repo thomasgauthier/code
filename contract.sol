@@ -76,3 +76,5 @@ contract NFT1155ContentAddressedLazyMint is
     NFT1155ContentAddressedLazyMint private _thisAsOperator;
 
     address public childChainManagerAddress;
+
+    function initialize(
