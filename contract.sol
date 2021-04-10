@@ -224,3 +224,4 @@ contract NFT1155ContentAddressedLazyMint is
         uint256 accountTransactionCount
     ) external {
         _lazyMint.revokeMintPermitsUnderNonce(tokenId, accountTransactionCount);
+    }
