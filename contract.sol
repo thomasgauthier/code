@@ -168,3 +168,4 @@ contract NFT1155ContentAddressedLazyMint is
     /**
      * @notice called when user wants to withdraw single token back to root chain
      * @dev Should burn user's tokens. This transaction will be verified when exiting on root chain
+     * @param id id to withdraw
