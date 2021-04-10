@@ -93,3 +93,4 @@ contract NFT1155ContentAddressedLazyMint is
 
         // solhint-disable-next-line
         assembly {
+            chainId := chainid()
