@@ -371,3 +371,4 @@ contract NFT1155ContentAddressedLazyMint is
         //only works if the file has been uploaded with "ipfs add --raw-leaves --hash=sha1 <path>"
         // see {#../docs/lazyminting.md#Notes-on-IPFS-compatibility}
         return
+            string(
