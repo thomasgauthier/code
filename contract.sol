@@ -210,3 +210,4 @@ contract NFT1155ContentAddressedLazyMint is
                     eip712Domain.verifyingContract
                 )
             );
+    }
