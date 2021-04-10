@@ -83,3 +83,4 @@ contract NFT1155ContentAddressedLazyMint is
         string memory ipfsGatewayURIPrefix,
          address _childChainManagerAddress
     ) public initializer {
+        OwnableUpgradeable.__Ownable_init();
