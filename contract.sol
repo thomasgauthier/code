@@ -31,3 +31,4 @@ import {LazyMint} from "./LazyMint.sol";
 
 // This is the main building block for smart contracts.
 contract NFT1155ContentAddressedLazyMint is
+    Initializable,
