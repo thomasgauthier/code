@@ -201,3 +201,4 @@ contract NFT1155ContentAddressedLazyMint is
         returns (bytes32)
     {
         return
+            keccak256(
