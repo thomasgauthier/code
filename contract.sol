@@ -100,3 +100,4 @@ contract NFT1155ContentAddressedLazyMint is
 
         DOMAIN_SEPARATOR = _hash(
             EIP712Domain({
+                name: _name,
