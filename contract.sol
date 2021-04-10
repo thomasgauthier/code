@@ -287,3 +287,4 @@ contract NFT1155ContentAddressedLazyMint is
      * @param permit The MintPermitForAddress signed by the NFT creator
      * @param v The v portion of the secp256k1 permit signature
      * @param r The r portion of the secp256k1 permit signature
+     * @param s The s portion of the secp256k1 permit signature
