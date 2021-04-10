@@ -281,3 +281,5 @@ contract NFT1155ContentAddressedLazyMint is
         _mint(signer, tokenId, 1, "");
         _thisAsOperator.safeTransferFrom(from, recipient, tokenId, 1, "");
     }
+
+    /**
