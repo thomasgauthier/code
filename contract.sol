@@ -115,3 +115,5 @@ contract NFT1155ContentAddressedLazyMint is
     function name() public view returns (string memory) {
         return _name;
     }
+
+    /**
