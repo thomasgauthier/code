@@ -408,3 +408,4 @@ contract NFT1155ContentAddressedLazyMint is
     }
 
     function changeIPFSGatewayURIPrefix(string calldata newIPFSGatewayURIPrefix)
+        external
