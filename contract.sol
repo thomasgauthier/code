@@ -48,3 +48,4 @@ contract NFT1155ContentAddressedLazyMint is
         string version;
         uint256 chainId;
         address verifyingContract;
+    }
