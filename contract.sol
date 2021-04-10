@@ -128,3 +128,5 @@ contract NFT1155ContentAddressedLazyMint is
         if (operator == address(this)) {
             return true;
         }
+
+        return ERC1155Upgradeable.isApprovedForAll(account, operator);
