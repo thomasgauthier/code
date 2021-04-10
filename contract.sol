@@ -221,3 +221,4 @@ contract NFT1155ContentAddressedLazyMint is
      */
     function revokeMintPermitsUnderNonce(
         uint256 tokenId,
+        uint256 accountTransactionCount
