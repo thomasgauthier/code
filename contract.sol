@@ -59,3 +59,4 @@ contract NFT1155ContentAddressedLazyMint is
     /*======================================*/
 
     // Mapping from token ID to minted state
+    mapping(uint256 => bool) private _isMinted;
