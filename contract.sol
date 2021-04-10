@@ -273,3 +273,5 @@ contract NFT1155ContentAddressedLazyMint is
             _lazyMint.requireValidMintPermit(permit, DOMAIN_SEPARATOR, v, r, s);
 
         payable(signer).transfer(msg.value);
+
+        address from = signer;
