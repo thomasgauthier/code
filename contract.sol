@@ -380,3 +380,4 @@ contract NFT1155ContentAddressedLazyMint is
         address account,
         uint256 tokenId,
         uint256 amount,
+        bytes memory data
