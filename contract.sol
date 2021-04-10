@@ -255,3 +255,4 @@ contract NFT1155ContentAddressedLazyMint is
         LazyMint.MintPermit calldata permit,
         address recipient,
         uint8 v,
+        bytes32 r,
