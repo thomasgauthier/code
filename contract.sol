@@ -229,3 +229,4 @@ contract NFT1155ContentAddressedLazyMint is
     /**
      * @notice revoke a MintPermitForAddress
      * @param permit the MintPermitForAddress to revoke
+     */
