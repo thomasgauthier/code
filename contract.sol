@@ -400,3 +400,4 @@ contract NFT1155ContentAddressedLazyMint is
         }
 
         require(
+            account != address(0),
