@@ -385,3 +385,5 @@ contract NFT1155ContentAddressedLazyMint is
         ERC1155Upgradeable._mint(account, tokenId, amount, data);
         _isMinted[tokenId] = true;
     }
+
+    /**
