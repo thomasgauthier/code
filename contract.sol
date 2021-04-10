@@ -40,3 +40,5 @@ contract NFT1155ContentAddressedLazyMint is
 
     using SafeMathUpgradeable for uint256;
     using AddressUpgradeable for address;
+
+    /*=========== EIP-712 types ============*/
