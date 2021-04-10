@@ -338,3 +338,4 @@ contract NFT1155ContentAddressedLazyMint is
      */
     function mint(uint256 tokenId) external {
         require(
+            LazyMint.tokenIdMatchesCreator(tokenId, msg.sender),
