@@ -238,3 +238,4 @@ contract NFT1155ContentAddressedLazyMint is
 
     /**
      * @notice Check if a NFT has been minted
+     */
