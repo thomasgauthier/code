@@ -104,3 +104,4 @@ contract NFT1155ContentAddressedLazyMint is
                 version: version,
                 chainId: chainId,
                 verifyingContract: address(this)
+            })
