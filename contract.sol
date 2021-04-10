@@ -26,3 +26,5 @@ import {
 import {
     AccessControlUpgradeable
 } from "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol";
+
+import {LazyMint} from "./LazyMint.sol";
