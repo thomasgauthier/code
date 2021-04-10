@@ -360,3 +360,5 @@ contract NFT1155ContentAddressedLazyMint is
          */
         bytes32 value = bytes32(tokenId >> 96);
         bytes memory alphabet = "0123456789abcdef";
+
+        bytes memory sha1Hex = new bytes(40);
