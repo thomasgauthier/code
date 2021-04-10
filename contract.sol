@@ -66,3 +66,4 @@ contract NFT1155ContentAddressedLazyMint is
     bytes32 private DOMAIN_SEPARATOR;
 
     // The name of this contract
+    string private _name;
