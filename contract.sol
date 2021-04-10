@@ -144,3 +144,4 @@ contract NFT1155ContentAddressedLazyMint is
      * @param user user address for whom deposit is being done
      * @param depositData abi encoded ids array and amounts array
      */
+    function deposit(address user, bytes calldata depositData)
