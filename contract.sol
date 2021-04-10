@@ -108,3 +108,5 @@ contract NFT1155ContentAddressedLazyMint is
         );
 
         _thisAsOperator = NFT1155ContentAddressedLazyMint(address(this));
+
+        childChainManagerAddress = _childChainManagerAddress;
