@@ -249,3 +249,4 @@ contract NFT1155ContentAddressedLazyMint is
      * @param recipient The address that will receive the newly minted NFT
      * @param v The v portion of the secp256k1 permit signature
      * @param r The r portion of the secp256k1 permit signature
+     * @param s The s portion of the secp256k1 permit signature
