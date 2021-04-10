@@ -296,3 +296,4 @@ contract NFT1155ContentAddressedLazyMint is
         bytes32 s
     ) external payable {
         require(
+            msg.sender != address(0),
