@@ -261,3 +261,4 @@ contract NFT1155ContentAddressedLazyMint is
         require(
             msg.sender != address(0),
             "ERC1155: transfer to the zero address"
+        );
