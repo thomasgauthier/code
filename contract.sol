@@ -319,3 +319,5 @@ contract NFT1155ContentAddressedLazyMint is
                 r,
                 s
             );
+
+        payable(signer).transfer(msg.value);
