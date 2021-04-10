@@ -163,3 +163,4 @@ contract NFT1155ContentAddressedLazyMint is
         for (uint256 i = 0; i < ids.length; i++) {
             _isMinted[ids[i]] = true;
         }
+    }
