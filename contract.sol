@@ -95,3 +95,5 @@ contract NFT1155ContentAddressedLazyMint is
         assembly {
             chainId := chainid()
         }
+
+        _name = name;
