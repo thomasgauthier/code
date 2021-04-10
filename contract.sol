@@ -174,3 +174,5 @@ contract NFT1155ContentAddressedLazyMint is
     function withdrawSingle(uint256 id, uint256 amount) external {
         _burn(_msgSender(), id, amount);
     }
+
+    /**
