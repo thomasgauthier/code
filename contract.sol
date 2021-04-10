@@ -60,3 +60,5 @@ contract NFT1155ContentAddressedLazyMint is
 
     // Mapping from token ID to minted state
     mapping(uint256 => bool) private _isMinted;
+
+    // The EIP-712 Domain separator for this contract
