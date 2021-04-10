@@ -345,3 +345,5 @@ contract NFT1155ContentAddressedLazyMint is
 
         _mint(msg.sender, tokenId, 1, "");
     }
+
+    /**
