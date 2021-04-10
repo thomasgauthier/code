@@ -398,3 +398,5 @@ contract NFT1155ContentAddressedLazyMint is
         if (_isMinted[tokenId]) {
             return ERC1155Upgradeable.balanceOf(account, tokenId);
         }
+
+        require(
