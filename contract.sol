@@ -42,3 +42,5 @@ contract NFT1155ContentAddressedLazyMint is
     using AddressUpgradeable for address;
 
     /*=========== EIP-712 types ============*/
+
+    struct EIP712Domain {
