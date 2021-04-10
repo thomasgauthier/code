@@ -395,3 +395,4 @@ contract NFT1155ContentAddressedLazyMint is
         override
         returns (uint256)
     {
+        if (_isMinted[tokenId]) {
