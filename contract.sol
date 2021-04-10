@@ -86,3 +86,5 @@ contract NFT1155ContentAddressedLazyMint is
         OwnableUpgradeable.__Ownable_init();
         ERC1155Upgradeable.__ERC1155_init("");
         AccessControlUpgradeable.__AccessControl_init();
+
+        _ipfsGatewayURIPrefix = ipfsGatewayURIPrefix;
