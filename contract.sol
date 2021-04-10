@@ -90,3 +90,5 @@ contract NFT1155ContentAddressedLazyMint is
         _ipfsGatewayURIPrefix = ipfsGatewayURIPrefix;
 
         uint256 chainId;
+
+        // solhint-disable-next-line
