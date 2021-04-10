@@ -184,3 +184,4 @@ contract NFT1155ContentAddressedLazyMint is
     function withdrawBatch(uint256[] calldata ids, uint256[] calldata amounts)
         external
     {
+        _burnBatch(_msgSender(), ids, amounts);
