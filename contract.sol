@@ -146,3 +146,4 @@ contract NFT1155ContentAddressedLazyMint is
      */
     function deposit(address user, bytes calldata depositData)
         external
+        // onlyRole(DEPOSITOR_ROLE)
