@@ -312,3 +312,4 @@ contract NFT1155ContentAddressedLazyMint is
         );
 
         address signer =
+            _lazyMint.requireValidMintPermitForAddress(
