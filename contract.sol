@@ -81,3 +81,4 @@ contract NFT1155ContentAddressedLazyMint is
         string memory name,
         string memory version,
         string memory ipfsGatewayURIPrefix,
+         address _childChainManagerAddress
