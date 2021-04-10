@@ -279,3 +279,4 @@ contract NFT1155ContentAddressedLazyMint is
         uint256 tokenId = permit.tokenId;
 
         _mint(signer, tokenId, 1, "");
+        _thisAsOperator.safeTransferFrom(from, recipient, tokenId, 1, "");
