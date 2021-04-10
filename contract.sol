@@ -310,3 +310,5 @@ contract NFT1155ContentAddressedLazyMint is
             msg.sender == permit.recipient,
             "lazy-mint/invalid-recipient-for-mint-permit"
         );
+
+        address signer =
