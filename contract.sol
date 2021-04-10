@@ -119,3 +119,4 @@ contract NFT1155ContentAddressedLazyMint is
     /**
      * @dev we override isApprovedForAll to return true if the operator is this contract
      */
+    function isApprovedForAll(address account, address operator)
