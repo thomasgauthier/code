@@ -220,3 +220,4 @@ contract NFT1155ContentAddressedLazyMint is
      * @param accountTransactionCount IMPORTANT:  the current account transaction count should be passed
      */
     function revokeMintPermitsUnderNonce(
+        uint256 tokenId,
