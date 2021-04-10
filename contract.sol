@@ -334,3 +334,4 @@ contract NFT1155ContentAddressedLazyMint is
     /**
      * @notice A creator can call this function to mint an NFT for themselves (no lazy mint)
      * @param tokenId The tokenID to mint needs to adhere to this contract token ID format
+     * @dev for the token ID format see "../docs/lazyminting.md" or {computeTokenId}
