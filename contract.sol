@@ -200,3 +200,4 @@ contract NFT1155ContentAddressedLazyMint is
         pure
         returns (bytes32)
     {
+        return
