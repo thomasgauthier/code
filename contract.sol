@@ -363,3 +363,4 @@ contract NFT1155ContentAddressedLazyMint is
 
         bytes memory sha1Hex = new bytes(40);
         for (uint256 i = 0; i < 20; i++) {
+            sha1Hex[i * 2] = alphabet[(uint8)(value[i + 12] >> 4)];
