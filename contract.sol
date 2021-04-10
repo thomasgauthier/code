@@ -242,3 +242,5 @@ contract NFT1155ContentAddressedLazyMint is
     function isMinted(uint256 tokenId) external view returns (bool minted) {
         return _isMinted[tokenId];
     }
+
+    /**
