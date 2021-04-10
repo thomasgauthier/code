@@ -186,3 +186,5 @@ contract NFT1155ContentAddressedLazyMint is
     {
         _burnBatch(_msgSender(), ids, amounts);
     }
+
+    /*========================================================================================*/
