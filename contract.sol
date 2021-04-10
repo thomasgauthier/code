@@ -227,3 +227,4 @@ contract NFT1155ContentAddressedLazyMint is
     }
 
     /**
+     * @notice revoke a MintPermitForAddress
