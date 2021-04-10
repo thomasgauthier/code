@@ -388,3 +388,4 @@ contract NFT1155ContentAddressedLazyMint is
 
     /**
      * @dev thanks to this contract token ID format (see "../docs/lazyminting.md" or {computeTokenId}) a creator can have a balance of 1 on a not-yet-minted NFT
+     */
