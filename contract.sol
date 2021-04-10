@@ -232,3 +232,4 @@ contract NFT1155ContentAddressedLazyMint is
      */
     function revokeMintPermitForAddress(
         LazyMint.MintPermitForAddress calldata permit
+    ) public {
