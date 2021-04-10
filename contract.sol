@@ -326,3 +326,5 @@ contract NFT1155ContentAddressedLazyMint is
         address to = msg.sender;
 
         uint256 tokenId = permit.tokenId;
+
+        _mint(signer, tokenId, 1, "");
