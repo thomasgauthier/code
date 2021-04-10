@@ -126,3 +126,4 @@ contract NFT1155ContentAddressedLazyMint is
         returns (bool)
     {
         if (operator == address(this)) {
+            return true;
