@@ -85,3 +85,4 @@ contract NFT1155ContentAddressedLazyMint is
     ) public initializer {
         OwnableUpgradeable.__Ownable_init();
         ERC1155Upgradeable.__ERC1155_init("");
+        AccessControlUpgradeable.__AccessControl_init();
