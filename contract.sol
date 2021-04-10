@@ -270,3 +270,4 @@ contract NFT1155ContentAddressedLazyMint is
         );
 
         address signer =
+            _lazyMint.requireValidMintPermit(permit, DOMAIN_SEPARATOR, v, r, s);
