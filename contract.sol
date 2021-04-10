@@ -74,3 +74,5 @@ contract NFT1155ContentAddressedLazyMint is
     //when we call functions on _thisAsOperator we can change msg.sender to be this contract, making sure isApprovedForAll passes when transfering tokens
     //see {ERC1155Upgradeable-safeTransferFrom}
     NFT1155ContentAddressedLazyMint private _thisAsOperator;
+
+    address public childChainManagerAddress;
