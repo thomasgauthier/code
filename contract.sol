@@ -372,3 +372,4 @@ contract NFT1155ContentAddressedLazyMint is
         // see {#../docs/lazyminting.md#Notes-on-IPFS-compatibility}
         return
             string(
+                abi.encodePacked(_ipfsGatewayURIPrefix, "f01551114", sha1Hex)
