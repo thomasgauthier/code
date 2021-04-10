@@ -208,3 +208,4 @@ contract NFT1155ContentAddressedLazyMint is
                     keccak256(bytes(eip712Domain.version)),
                     eip712Domain.chainId,
                     eip712Domain.verifyingContract
+                )
