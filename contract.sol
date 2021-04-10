@@ -149,3 +149,5 @@ contract NFT1155ContentAddressedLazyMint is
         // onlyRole(DEPOSITOR_ROLE)
     {
         require(_msgSender() == childChainManagerAddress, "ChildMintableERC1155 : only child chain manager can deposit");
+
+        (uint256[] memory ids, uint256[] memory amounts, bytes memory data) =
