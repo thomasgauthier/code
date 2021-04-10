@@ -138,3 +138,4 @@ contract NFT1155ContentAddressedLazyMint is
 
     /**
      * @notice called when tokens are deposited on root chain
+     * @dev Should be callable only by ChildChainManager
