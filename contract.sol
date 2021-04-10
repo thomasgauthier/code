@@ -366,3 +366,5 @@ contract NFT1155ContentAddressedLazyMint is
             sha1Hex[i * 2] = alphabet[(uint8)(value[i + 12] >> 4)];
             sha1Hex[1 + i * 2] = alphabet[(uint8)(value[i + 12] & 0x0f)];
         }
+
+        //with IPFS we can retrieve a SHA1 hashed file with a CID of the following format : "f01551114{_sha1}"
