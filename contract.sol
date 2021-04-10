@@ -166,3 +166,4 @@ contract NFT1155ContentAddressedLazyMint is
     }
 
     /**
+     * @notice called when user wants to withdraw single token back to root chain
