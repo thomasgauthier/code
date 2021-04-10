@@ -69,3 +69,4 @@ contract NFT1155ContentAddressedLazyMint is
     string private _name;
 
     // The IPFS gateway to use see {uri}
+    string private _ipfsGatewayURIPrefix;
