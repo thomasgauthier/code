@@ -235,3 +235,5 @@ contract NFT1155ContentAddressedLazyMint is
     ) public {
         _lazyMint.revokeMintPermitForAddress(permit, DOMAIN_SEPARATOR);
     }
+
+    /**
