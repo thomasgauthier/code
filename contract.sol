@@ -97,3 +97,5 @@ contract NFT1155ContentAddressedLazyMint is
         }
 
         _name = name;
+
+        DOMAIN_SEPARATOR = _hash(
