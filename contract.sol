@@ -78,3 +78,4 @@ contract NFT1155ContentAddressedLazyMint is
     address public childChainManagerAddress;
 
     function initialize(
+        string memory name,
