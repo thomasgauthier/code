@@ -258,3 +258,4 @@ contract NFT1155ContentAddressedLazyMint is
         bytes32 r,
         bytes32 s
     ) external payable {
+        require(
