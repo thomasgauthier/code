@@ -80,3 +80,4 @@ contract NFT1155ContentAddressedLazyMint is
     function initialize(
         string memory name,
         string memory version,
+        string memory ipfsGatewayURIPrefix,
