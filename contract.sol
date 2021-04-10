@@ -37,3 +37,5 @@ contract NFT1155ContentAddressedLazyMint is
     AccessControlUpgradeable
 {
     using LazyMint for LazyMint.LazyMintStorage;
+
+    using SafeMathUpgradeable for uint256;
